@@ -64,7 +64,7 @@ class Button():
             if self.activeBtn == False:
                 self.wgt = p.draw.rect(self.master, self.colorBgOk, (self.x, self.y, self.width, self.height))
                 self.master.blit(self.testStr, (self.xt, self.yt))
-                print("CLICK")
+                # print("CLICK")
                 if self.command != False:
                     self.command()
                 self.activeBtn = True
